@@ -7,8 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
-import com.example.myapplication.R
 import com.example.pullrequest.DateUtil
+import com.example.pullrequest.R
 import com.example.pullrequest.dtos.ClosedPullRequest
 
 class ClosedRequestAdapter(

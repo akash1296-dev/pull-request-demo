@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.myapplication.R
+import com.example.pullrequest.R
 import com.example.pullrequest.adapter.ClosedRequestAdapter
 import com.example.pullrequest.dtos.ClosedPullRequest
 import com.example.pullrequest.viewmodel.GitHubRepoViewModel
