@@ -24,9 +24,3 @@ A
 Kapp/src/androidTest/java/com/example/pullrequest/ExampleInstrumentedTest.kt,6\6\66a846dcae383398f13c930905d957b6760b3508
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-l
-<app/src/main/java/com/example/pullrequest/GitHubConstants.kt,9\a\9a49c75f2258a1144ade7431f33aa4b694adab57
-z
-Japp/src/main/java/com/example/pullrequest/viewmodel/GitHubRepoViewModel.kt,3\c\3ce1f9f7612b5a485f896dc85557ac27b0729fba
-l
-<app/src/main/java/com/example/pullrequest/RetrofitFactory.kt,9\3\9388e64f53c37bf711a04d1109e9d5526a6f5ff2

@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadData() {
         toggleViewVisibility(mProgressBar, true)
-        if (NetworkUtil.isNetworkAvailable(this)){
+        if (NetworkUtil.isNetworkAvailable(this)) {
             mRepoViewModel.fetchClosedPullRequest().observe(this) { listClosedRequest ->
                 if (listClosedRequest.isNullOrEmpty()) {
                     toggleViewVisibility(mProgressBar, false)
