@@ -24,10 +24,6 @@ A
 Kapp/src/androidTest/java/com/example/pullrequest/ExampleInstrumentedTest.kt,6\6\66a846dcae383398f13c930905d957b6760b3508
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-e
-5app/src/main/java/com/example/pullrequest/DateUtil.kt,7\3\736b525aebbe70d85312d6d61ef809b1160000e9
 l
 <app/src/main/java/com/example/pullrequest/GitHubConstants.kt,9\a\9a49c75f2258a1144ade7431f33aa4b694adab57
 z
