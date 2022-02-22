@@ -6,3 +6,8 @@ object GitHubConstants {
     const val PULL = "pulls"
     const val PULL_STATE_CLOSED = "closed"
 }
+
+object PullRequestState {
+    const val CLOSED = "closed"
+    const val OPEN = "open"
+}

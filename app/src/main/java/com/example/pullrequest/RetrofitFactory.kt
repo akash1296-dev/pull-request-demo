@@ -4,7 +4,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitFactory {
-    private const val TAG = "RetrofitFactory"
     private const val BASE_URL = "https://api.github.com"
 
     fun getRetrofit(): Retrofit {

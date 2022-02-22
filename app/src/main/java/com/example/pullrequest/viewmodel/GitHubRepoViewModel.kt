@@ -3,6 +3,7 @@ package com.example.pullrequest.viewmodel
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.pullrequest.PullRequestState
 import com.example.pullrequest.RetrofitFactory
 import com.example.pullrequest.dtos.ClosedPullRequest
 import com.example.pullrequest.endpoint.GitHubService
@@ -17,11 +18,11 @@ class GitHubRepoViewModel() : ViewModel() {
         .create(GitHubService::class.java)
     private val TAG = "GitHubRepoViewModel"
 
-    fun fetchClosedPullRequest(pullRequestState: String) : MutableLiveData<List<ClosedPullRequest>>? {
+    fun fetchClosedPullRequest() : MutableLiveData<List<ClosedPullRequest>> {
 
         val listClosedPullRequest = MutableLiveData<List<ClosedPullRequest>>()
 
-        gitHubEndPoint.fetchClosedPullRequest("closed").enqueue(object : Callback<List<ClosedPullRequest>> {
+        gitHubEndPoint.fetchClosedPullRequest(PullRequestState.CLOSED).enqueue(object : Callback<List<ClosedPullRequest>> {
             override fun onResponse(call: Call<List<ClosedPullRequest>>, response: Response<List<ClosedPullRequest>>) {
                 Log.d(TAG, "data is ${response.body()}")
                 if (response.isSuccessful) {
