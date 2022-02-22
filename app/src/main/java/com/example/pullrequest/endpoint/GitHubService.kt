@@ -6,6 +6,6 @@ import retrofit2.http.Query
 
 interface GitHubService {
 
-    @GET("/repos/akash1296-dev/EmojiDemo/pulls")
+    @GET("/repos/akash1296-dev/pull-request-demo/pulls")
     fun fetchClosedPullRequest(@Query("state") state: String): retrofit2.Call<List<ClosedPullRequest>>
 }
