@@ -1,10 +1,8 @@
 package com.example.pullrequest
 
 object GitHubConstants {
-    const val USER_NAME = "akash1296-dev"
-    const val REPO_NAME = "EmojiDemo"
-    const val PULL = "pulls"
-    const val PULL_STATE_CLOSED = "closed"
+    const val REPO_END_POINT = "/repos/akash1296-dev/pull-request-demo/pulls"
+    const val REQUEST_STATE_PARAM = "state"
 }
 
 object PullRequestState {
